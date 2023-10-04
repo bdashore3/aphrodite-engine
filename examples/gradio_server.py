@@ -33,8 +33,8 @@ def build_demo():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", type=str, default="localhost")
-    parser.add_argument("--port", type=int, default=8001)
-    parser.add_argument("--model-url", type=str, default="http://localhost:8000/generate")
+    parser.add_argument("--port", type=int, default=2242)
+    parser.add_argument("--model-url", type=str, default="http://localhost:2242/generate")
 
     args = parser.parse_args()
 

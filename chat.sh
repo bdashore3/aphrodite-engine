@@ -5,7 +5,7 @@ if [ $# -lt 2 ]; then
   exit 1
 fi
 
-ENDPOINT="http://localhost:8000/v1/chat/completions"
+ENDPOINT="http://localhost:2242/v1/chat/completions"
 
 MODEL_NAME="$1"
 MAX_TOKENS="$2"
